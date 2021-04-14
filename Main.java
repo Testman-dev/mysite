@@ -20,6 +20,3 @@ class Main {
     System.out.println("偶数の和は" + evenSum + "です");
   }
 }
-
-aaa
-bbb
