@@ -1,3 +1,5 @@
+package lesson5;
+
 //条件演算子(?)を使う
 import java.io.*;
 

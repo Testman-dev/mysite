@@ -1,3 +1,5 @@
+package lesson4;
+
 //演算子の優先順位
 public class Sample4_7 {
   public static void main(String[] args){

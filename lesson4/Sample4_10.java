@@ -1,3 +1,5 @@
+package lesson4;
+
 //異なる型同士の演算
 public class Sample4_10 {
   public static void main(String[] args){

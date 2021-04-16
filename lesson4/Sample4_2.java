@@ -1,3 +1,5 @@
+package lesson4;
+
 //変数+変数、変数+整数の計算
 public class Sample4_2 {
   public static void main(String[] args){

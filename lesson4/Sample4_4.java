@@ -1,3 +1,5 @@
+package lesson4;
+
 //様々な演算子
 public class Sample4_4 {
   public static void main(String[] args){

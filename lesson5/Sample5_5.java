@@ -1,3 +1,5 @@
+package lesson5;
+
 //switch文を使う
 import java.io.*;
 

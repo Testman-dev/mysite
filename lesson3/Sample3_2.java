@@ -1,3 +1,5 @@
+package lesson3;
+
 public class Sample3_2 {
   public static void main(String[] args){
     //int num = 3でもOK

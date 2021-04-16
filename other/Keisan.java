@@ -1,3 +1,5 @@
+package other;
+
 public class Keisan {
     public static void main(String[] args) {
       // 変数numbersに、与えられた数字の配列を代入してください

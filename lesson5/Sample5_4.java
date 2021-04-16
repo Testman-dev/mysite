@@ -1,7 +1,9 @@
-//if文を使う
+package lesson5;
+
+//if～else、else if～を使う
 import java.io.*;
 
-public class Sample5_1 {
+public class Sample5_4 {
   public static void main(String[] args) throws IOException{
     System.out.println("整数を入力してください。");
 
@@ -9,12 +11,14 @@ public class Sample5_1 {
       new BufferedReader(new InputStreamReader(System.in));
 
     String str = br.readLine();
-    //キーボードからの入力を変数resに格納
-    int res =  Integer.parseInt(str);
+    int res = Integer.parseInt(str);
 
-    if(res == 1)
+    if(res == 1){
       System.out.println("1が入力されました。");
-
-    System.out.println("処理を終了します。");
+    }else if(res ==2){
+      System.out.println("2が入力されました。");
+    }else{
+      System.out.println("1か2を入力してください。");
+    }
   }
 }

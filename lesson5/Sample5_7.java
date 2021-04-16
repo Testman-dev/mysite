@@ -1,3 +1,5 @@
+package lesson5;
+
 //論理演算子で条件を記述する
 import java.io.*;
 

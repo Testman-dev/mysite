@@ -1,3 +1,5 @@
+package lesson4;
+
 //たし算プログラム
 import java.io.*;
 

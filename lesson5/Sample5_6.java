@@ -1,3 +1,5 @@
+package lesson5;
+
 //switch文を文字で場合分けする
 import java.io.*;
 

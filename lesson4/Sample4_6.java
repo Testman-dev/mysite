@@ -1,3 +1,5 @@
+package lesson4;
+
 //複合代入演算子
 import java.io.*;
 

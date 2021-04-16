@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Sample4_1 {
   public static void main(String[] args){
     System.out.println("1+2は" + (1+2) + "です。");

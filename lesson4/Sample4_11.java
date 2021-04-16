@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Sample4_11 {
   public static void main(String[] args){
     int num1 = 5;

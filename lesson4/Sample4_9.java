@@ -1,3 +1,5 @@
+package lesson4;
+
 //小さなサイズの型に代入
 public class Sample4_9 {
   public static void main(String[] args){
