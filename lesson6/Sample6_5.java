@@ -1,5 +1,6 @@
 package lesson6;
 
+//while文を使う
 public class Sample6_5 {
   public static void main(String[] args){
     int i = 1;
