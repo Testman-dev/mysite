@@ -1,4 +1,7 @@
 package lesson8;
+
+//クラス内でメソッドを呼び出す
+
 //車クラス
 class Car3{
   int num;
@@ -11,7 +14,7 @@ class Car3{
   void showCar3(){
     System.out.println("これから車の情報を表示します。");
     //this.showも可
-    this.show();
+    show();
   }
 }
 
