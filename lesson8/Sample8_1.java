@@ -1,5 +1,7 @@
 package lesson8;
 
+//クラスを利用する
+
 //車クラス
 class Car {
   int num;
