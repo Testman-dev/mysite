@@ -4,6 +4,7 @@ package lesson9;
 
 //車クラス
 class Car{
+  //privateクラスとすると他クラスからアクセスできなくなる
   int num;
   double gas;
 
