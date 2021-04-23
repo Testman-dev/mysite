@@ -19,6 +19,7 @@ public class Sample10_3 {
     String str2 = br.readLine();
     char ch = str2.charAt(0);
 
+    //indexOf()メソッドは文字列から文字を検索して、最初にあらわれる位置を返す
     int num = str1.indexOf(ch);
 
     if(num != -1)
