@@ -5,6 +5,7 @@ package lesson9;
 
 //車クラス
 class Car8{
+  //クラス変数
   public static int sum = 0;
 
   private int num;
@@ -21,7 +22,9 @@ class Car8{
     gas = g;
     System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "にしました。");
   }
+  //クラスメソッド
   public static void showSum(){
+    //sumはクラス全体で何台の車(いくつのオブジェクト)が存在しているか
     System.out.println("車は全部で" + sum + "台あります。");
   }
   public void show(){
