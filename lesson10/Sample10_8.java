@@ -41,6 +41,9 @@ public class Sample10_8 {
     int number = 1234;
 
     double gasoline = 20.5;
+    //strに1号車という値を入れているが、出力する際にはnmに1号車が入っている
+    //基本型は値渡し(呼び出し元と呼び出し先がさすオブジェクトは別)
+    //クラス型は参照渡し(呼び出し元と呼び出し先がさすオブジェクトは同じ)
     String str = "1号車";
 
     car1.setCar(number, gasoline);
