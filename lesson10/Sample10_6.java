@@ -27,12 +27,13 @@ public class Sample10_6 {
   public static void main(String[] args){
     Car car1;
     System.out.println("car1を宣言しました。");
+    //Car2クラスをもとにオブジェクトを作りながらcar1に代入している
     car1 = new Car();
     car1.setCar(1234, 20.5);
 
     Car car2;
     System.out.println("car2を宣言しました。");
-
+    //ここではオブジェクトを作成していないが、car1の変数をcar2に代入している
     car2 = car1;
     System.out.println("car2にcar1を代入しました。");
 
