@@ -1,6 +1,6 @@
 package lesson12;
 
-//抽象クラスを利用する
+//instanceof演算子を使う
 
 //のりものクラス
 abstract class Vehicle2{
@@ -53,6 +53,7 @@ public class Sample12_2 {
     vc[1] = new Plane2(232);
 
     for(int i=0; i<vc.length; i++){
+      //instanceof演算子によりオブジェクトのクラスを調べることができる
       if(vc[i] instanceof Car2)
         System.out.println((i+1) + "番目のオブジェクトはCarクラスです。");
       else
