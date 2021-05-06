@@ -1,12 +1,10 @@
 package lesson14;
 
-//例外を処理する
+//finallyブロックをつける
 
-public class Sample14_2 {
+public class Sample14_3 {
   public static void main(String[] args){
-    //例外の発生を調べる部分
     try{
-
       int[] test;
       test = new int[5];
 
@@ -17,6 +15,10 @@ public class Sample14_2 {
     }
     catch(ArrayIndexOutOfBoundsException e){
       System.out.println("配列の要素をこえています。");
+    }
+    finally{
+      //例外の発生にかかわらず行う処理
+      System.out.println("最後に必ずこの処理をします。");
     }
     System.out.println("無事終了しました。");
   }
